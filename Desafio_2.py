@@ -3,3 +3,11 @@
 # Você digitou o número : 10
 # O sucessor dele é o número : 11
 # O antecessor dele é o número : 9
+
+numero = int(input("Você digitou o número: "))
+
+sucessor = numero + 1
+antecessor = numero - 1
+
+print(f"O sucessor dele é o número: {sucessor}")
+print(f"O antecessor dele é o número: {antecessor}")

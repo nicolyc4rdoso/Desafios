@@ -10,3 +10,19 @@
 # Nome: Gustavo B
 # Hora : 15
 # Boa Tarde, Gustavo B
+
+def cumprimentar(nome, hora):
+    if hora >= 5 and hora <= 12:
+        print(f"Bom dia, {nome}")
+    elif hora >= 13 and hora <= 18:
+        print(f"Boa tarde, {nome}")
+    elif hora >= 19 and hora <= 24:
+        print(f"Boa noite, {nome}")
+    else:
+        print("Horário inválido")
+
+
+nome = input("Nome: ")
+hora = int(input("Hora: "))
+
+cumprimentar(nome, hora)
